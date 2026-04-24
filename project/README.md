@@ -1,16 +1,46 @@
-# React + Vite
+# 🎨 Paint Store POS System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Paint Store Point of Sale (POS) web application built using React.  
+This system helps manage stock, billing, and daily sales history.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 📦 Inventory Management
+- Add new paint products (Company + Litre)
+- Update stock quantity
+- Automatic stock merge (no duplicates)
+- Real-time stock tracking
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🛒 Billing System
+- Sell products (stock decreases automatically)
+- Cancel sales (stock increases back)
+- Auto cart calculation
+- Total bill generation
 
-## Expanding the ESLint configuration
+### 💰 Stock Value Tracking
+- Each product shows stock value (price × quantity)
+- Total inventory value calculation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 History Tracking
+- Daily logs (SALE / CANCEL / STOCK ADD)
+- Time-based tracking
+- Automatic save using localStorage
+
+### 💾 Data Persistence
+- Uses browser localStorage
+- Data remains after refresh
+
+---
+
+## 🧠 Tech Stack
+
+- React.js
+- JavaScript (ES6)
+- CSS (Custom UI)
+- LocalStorage (for data persistence)
+
+---
+
+## 📁 Project Structure
